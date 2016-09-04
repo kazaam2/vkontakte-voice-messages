@@ -15,7 +15,7 @@ function myShow()
 			if( obj = document.getElementById('myiframe') )
 				document.body.removeChild( obj );
 
-			document.body.innerHTML += '<iframe id="myiframe" src="http://translate.google.com/translate_tts?ie=utf-8&tl=ru&q='+ encodeURIComponent(message) +'"></iframe';
+			document.body.innerHTML += '<iframe id="myiframe" src="https://translate.google.com/translate_tts?ie=UTF-8&total=1&idx=0&client=tw-ob&tl=Ru-ru&q='+ encodeURIComponent(message) +'"></iframe';
 
 			console.log('message ' + message );
 
